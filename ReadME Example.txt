@@ -1,14 +1,12 @@
-# TDM-Worked-Examples
+ReadME Example
 
-
+Project Title
 Worked examples of the CLI to be leveraged by Redgate users interested in automating the functions of Test Data Manager
 
 Features
 Anonymize
-Subsetter
-Redgate Clone
-SQL Clone
-SQL Files
+Subset
+Clone
 
 Description
 An in-depth paragraph about your project and overview of use.

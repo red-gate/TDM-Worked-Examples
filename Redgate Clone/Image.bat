@@ -1,0 +1,1 @@
+rgclone create data-image --file="C:\Github\TDM\End-to-End\SQL\NewWorldDB2022.yaml" 
