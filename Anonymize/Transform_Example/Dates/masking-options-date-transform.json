@@ -1,0 +1,15 @@
+{
+  "jsonSchemaVersion": 1,
+  "transformRules": [
+    {
+      "condition": "Column.Name is any of 'DOB', 'Dob', 'dob', 'DoB', 'DateOfBirth', 'Dob8' and Column.Width is 8",
+      "pre": "toDate(${value}, \"dd/MM/yy\")",
+      "post": "toString(${value}, \"dd/MM/yy\")"
+    },
+    {
+      "condition": "Column.Name is any of 'DOB', 'Dob', 'dob', 'DoB', 'DateOfBirth', 'Dob6' and Column.Width is 6",
+      "pre": "toDate(${value}, \"ddMMyy\")",
+      "post": "toString(${value}, \"ddMMyy\")"
+    }
+  ]
+}
